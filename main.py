@@ -8,6 +8,7 @@ import logging
 import os
 import time
 from typing import Dict, Optional
+from urllib.parse import quote as url_quote
 
 # Load environment variables
 load_dotenv()
